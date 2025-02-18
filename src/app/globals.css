@@ -19,3 +19,38 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Quill Editor Styles */
+.ql-editor {
+  min-height: 400px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ql-toolbar {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* Dark mode support */
+.dark .ql-toolbar {
+  background: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark .ql-editor {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.dark .ql-toolbar .ql-stroke {
+  stroke: #fff;
+}
+
+.dark .ql-toolbar .ql-fill {
+  fill: #fff;
+}
+
+.dark .ql-toolbar .ql-picker {
+  color: #fff;
+}
